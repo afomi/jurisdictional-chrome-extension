@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "jurisdictional",
+    "description": "Jurisdictional - Chrome Extension"
+  },
+  "appDescription": {
+    "message": "submit a URL to Jurisdictional",
+    "description": "The description of the application"
+  }
+}

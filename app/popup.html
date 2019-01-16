@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    Jurisdictional
+  </title>
+
+  <style type="text/css">
+    button.active {
+      border: 1px solid red;
+    }
+  </style>
+
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/background.js"></script>
+</head>
+
+<body class="popup">
+
+<div class="row-fluid">
+  <div class="span12">
+
+    <div class="input-append" style="margin: 0;">
+      <input type="text" name="window-name" style="width: 239px;" />
+      <div class="add-on" id="save-name">
+        Save
+      </div>
+    </div>
+
+    <div id="originally-a-popup" class="btn input-xlarge hide">
+      This Chrome window was originally a Popup and cannot be moved:
+      http://developer.chrome.com/extensions/tabs.html#method-move
+    </div>
+
+    <div id="window-button" class="template hide btn input-xlarge">
+      Window-button
+    </div>
+
+    <div id="window-buttons" class="list">
+      <!-- Window buttons render here -->
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
